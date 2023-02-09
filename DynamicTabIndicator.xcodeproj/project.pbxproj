@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B13561A29952AFC00153CA9 /* ScrollOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B13561929952AFC00153CA9 /* ScrollOffset.swift */; };
+		7B13561F29952B3900153CA9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B13561E29952B3900153CA9 /* Home.swift */; };
+		7B13562129952B4800153CA9 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B13562029952B4800153CA9 /* Tab.swift */; };
+		7B13562329952B5F00153CA9 /* LineerInterpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B13562229952B5F00153CA9 /* LineerInterpolation.swift */; };
 		7B5531A82992ED4F00C9F81E /* DynamicTabIndicatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5531A72992ED4F00C9F81E /* DynamicTabIndicatorApp.swift */; };
 		7B5531AA2992ED4F00C9F81E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5531A92992ED4F00C9F81E /* ContentView.swift */; };
 		7B5531AC2992ED5200C9F81E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B5531AB2992ED5200C9F81E /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B13561929952AFC00153CA9 /* ScrollOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffset.swift; sourceTree = "<group>"; };
+		7B13561E29952B3900153CA9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7B13562029952B4800153CA9 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		7B13562229952B5F00153CA9 /* LineerInterpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineerInterpolation.swift; sourceTree = "<group>"; };
 		7B5531A42992ED4F00C9F81E /* DynamicTabIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTabIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5531A72992ED4F00C9F81E /* DynamicTabIndicatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTabIndicatorApp.swift; sourceTree = "<group>"; };
 		7B5531A92992ED4F00C9F81E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +79,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B13561B29952B0800153CA9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7B13561929952AFC00153CA9 /* ScrollOffset.swift */,
+				7B13562229952B5F00153CA9 /* LineerInterpolation.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7B13561C29952B1500153CA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B13562029952B4800153CA9 /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B13561D29952B2700153CA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B13561E29952B3900153CA9 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7B55319B2992ED4F00C9F81E = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +127,9 @@
 		7B5531A62992ED4F00C9F81E /* DynamicTabIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				7B13561D29952B2700153CA9 /* View */,
+				7B13561C29952B1500153CA9 /* Model */,
+				7B13561B29952B0800153CA9 /* Helpers */,
 				7B5531A72992ED4F00C9F81E /* DynamicTabIndicatorApp.swift */,
 				7B5531A92992ED4F00C9F81E /* ContentView.swift */,
 				7B5531AB2992ED5200C9F81E /* Assets.xcassets */,
@@ -258,6 +294,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B5531AA2992ED4F00C9F81E /* ContentView.swift in Sources */,
+				7B13562329952B5F00153CA9 /* LineerInterpolation.swift in Sources */,
+				7B13561A29952AFC00153CA9 /* ScrollOffset.swift in Sources */,
+				7B13562129952B4800153CA9 /* Tab.swift in Sources */,
+				7B13561F29952B3900153CA9 /* Home.swift in Sources */,
 				7B5531A82992ED4F00C9F81E /* DynamicTabIndicatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
